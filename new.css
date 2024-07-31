@@ -1,0 +1,309 @@
+body {
+    font-style:normal;
+    background: #211828;
+  }
+  
+  .animation-box {
+    width: 75%;
+    top:100px;
+    height: 30.5rem;
+    background-color: #815ac0;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .animation-container {
+    width: 1000rem;
+    height: 300rem;
+  }
+  
+  .first-text {
+    font-size: 4.4rem;
+    position: absolute;
+    left: 2.5rem;
+    top: 20rem;
+    opacity: 0;
+    animation-name: topFadeOut;
+    animation-duration: 5s;
+    color: #211828;
+  }
+  
+  .second-text {
+    font-size: 3.4rem;
+    position: absolute;
+    left: 2.5rem;
+    top: 20rem;    opacity: 0;
+    animation-name: topFadeOut;
+    animation-delay: 3s;
+    animation-duration: 6s;
+    color: #211828;
+  }
+  
+  .third-text {
+    font-size: 3.4rem;
+    position: absolute;
+    left: 2.5rem;
+    top: 20rem;    opacity: 0;
+    animation-name: topFadeOut;
+    animation-delay: 6s;
+    animation-duration: 6s;
+    color: #211828;
+  }
+  
+  .fourth-text {
+    font-size: 3.4rem;
+    position: absolute;
+    left: 2.5rem;
+    top: 20rem;    opacity: 0;
+    animation-name: topFadeOut;
+    animation-delay: 10s;
+    animation-duration: 6s;
+    color: #211828;
+  }
+  
+  .fifth-text {
+    font-size: 3.4rem;
+    position: absolute;
+    left: 2.5rem;
+    top: 20rem;    opacity: 0;
+    animation-name: topFadeOut;
+    animation-delay: 14s;
+    animation-duration: 6s;
+    color: #211828;
+  }
+
+  .sixth-text {
+    font-size: 3.4rem;
+    position: absolute;
+    left: 2.5rem;
+    top: 20rem;    opacity: 0;
+    animation-name: topFadeOut;
+    animation-delay: 18s;
+    animation-duration: 6s;
+    color: #211828;
+  }
+
+  .seventh-text {
+    font-size: 3.4rem;
+    position: absolute;
+    left: 2.5rem;
+    top: 20rem;    opacity: 0;
+    animation-name: topFadeOut;
+    animation-delay: 22s;
+    animation-duration: 6s;
+    color: #211828;
+  }
+
+  .eigth-text {
+    font-size: 3.4rem;
+    position: absolute;
+    left: 2.5rem;
+    top: 20rem;    opacity: 0;
+    animation-name: topFadeOut;
+    animation-delay: 26s;
+    animation-duration: 6s;
+    color: #211828;
+  }
+
+  .nineth-text {
+    font-size: 3.4rem;
+    position: absolute;
+    left: 2.5rem;
+    top: 20rem;    opacity: 0;
+    animation-name: topFadeOut;
+    animation-delay: 30s;
+    animation-duration: 6s;
+    color: #211828;
+  }
+
+  .tenth-text {
+    font-size: 3.4rem;
+    position: absolute;
+    left: 2.5rem;
+    top: 20rem;    opacity: 0;
+    animation-name: topFadeOut;
+    animation-delay: 34s;
+    animation-duration: 6s;
+    color: #211828;
+  }
+
+  .eleventh-text {
+    font-size: 3.4rem;
+    position: absolute;
+    left: 2.5rem;
+    top: 20rem;    opacity: 0;
+    animation-name: topFadeOut;
+    animation-delay: 38s;
+    animation-duration:10s;
+    color: #211828;
+  }
+
+  
+  @keyframes topFadeOut {
+    0% {
+      position: absolute;
+      top: -3rem;
+      opacity: 0;
+    }
+  
+    75% {
+      position: absolute;
+      top: 25%;
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes bottomFadeOut {
+    0% {
+      position: absolute;
+      bottom: -5rem;
+      opacity: 0;
+    }
+  
+    75% {
+      position: absolute;
+      bottom: 25%;
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes topFadeOutVertical {
+    0% {
+      position: absolute;
+      top: -3rem;
+      opacity: 0;
+    }
+  
+    75% {
+      position: absolute;
+      top: 45%;
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes rightFadeInOut {
+    0% {
+      position: absolute;
+      right: -3rem;
+      opacity: 0;
+    }
+  
+    75% {
+      position: absolute;
+      right: 10rem;
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0;
+      right: 10rem;
+    }
+  }
+  
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+  
+    45% {
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0%;
+    }
+  }
+
+
+  @keyframes flow2 {
+    0% {
+        top: -10%;
+        left: -10%;
+        opacity: 0;
+    }
+    50% {
+        top: 60%;
+        left: 60%;
+        opacity: 1;
+    }
+    100% {
+        top: 110%;
+        left: 110%;
+        opacity: 0;
+    }
+}
+
+@keyframes flow3 {
+    0% {
+        top: 110%;
+        left: -10%;
+        opacity: 0;
+    }
+    50% {
+        top: 60%;
+        left: 20%;
+        opacity: 1;
+    }
+    100% {
+        top: -10%;
+        left: 100%;
+        opacity: 0;
+    }
+}
+
+.heart {
+    background-color: red;
+    height: 70px;
+    width: 70px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    transform: rotate(-45deg);
+    box-shadow: -5px 10px 90px red;
+    animation: untoldcoding 0.8s linear infinite;
+  }
+  
+  @keyframes untoldcoding {
+    0% {
+      transform: rotate(-45deg) scale(1.05);
+    }
+    70% {
+      transform: rotate(-45deg) scale(1);
+    }
+    100% {
+      transform: rotate(-45deg) scale(0.8);
+    }
+  }
+  .heart:before {
+    content: "";
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background-color: red;
+    top: -40px;
+    border-radius: 50px;
+  }
+  .heart:after {
+    content: "";
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background-color: red;
+    right: -40px;
+    border-radius: 50px;
+  }
+
+  
